@@ -1,0 +1,26 @@
+{
+  "name": "nova_salud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YossmelBruno/Nova_Salud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YossmelBruno/Nova_Salud/issues"
+  },
+  "homepage": "https://github.com/YossmelBruno/Nova_Salud#readme",
+  "dependencies": {
+    "mysql2": "^3.22.3",
+    "react-router-dom": "^7.15.0"
+  }
+}
