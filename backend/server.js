@@ -1,7 +1,10 @@
-    import app from "./app.js";
+import app from "./app.js";
+import clienteRoutes from "./routes/clienteRoutes.js";
 
-    const PORT = process.env.PORT || 3000;
+app.use("/api/clientes", clienteRoutes);
 
-    app.listen(PORT, () => {
-    console.log(`Servidor corriendo en puerto ${PORT}`);
-    });
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en puerto ${PORT}`);
+});
